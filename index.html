@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran Mabit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="form-header">
+            <h1>Pendaftaran Mabit (Malam Bina dan Taqwa)</h1>
+            <p>Daftarkan dirimu untuk ikut serta dalam acara Mabit di masjid al-ishlah!</p>
+        </header>
+
+        <form id="registrationForm" class="form-body">
+            <div class="form-group">
+                <label for="name">Nama Lengkap:</label>
+                <input type="text" id="name" name="name" required placeholder="Masukkan nama lengkap">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Alamat Rumah:</label>
+                <input type="email" id="email" name="email" required placeholder="Masukkan alamat kamu">
+            </div>
+
+            <div class="form-group">
+                <label for="age">Usia:</label>
+                <input type="number" id="age" name="age" required placeholder="Masukkan usia">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Nomor Telepon:</label>
+                <input type="tel" id="phone" name="phone" required placeholder="Masukkan nomor telepon">
+            </div>
+
+            <div class="form-group">
+                <label for="interest">Apa yang membuat Anda tertarik mengikuti Mabit?</label>
+                <textarea id="interest" name="interest" rows="4" placeholder="Tuliskan alasan Anda..."></textarea>
+            </div>
+            <a id="azzam" href="https://web.whatsapp.com/+62 877-2928-5969  ">Panitia</a>
+        </form>
+
+        <a id="nazriel" href="https://web.whatsapp.com/+62 812-2388-5260">Panitia</a>
+        
+        <div id="successMessage" class="success-message">Terima kasih sudah mendaftar Mabit!</div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
